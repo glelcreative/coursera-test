@@ -1,0 +1,49 @@
+#header-nav {
+  background-color: #FF5733;
+  border-radius: 0;
+  border: 0;
+  padding-bottom: 15px;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+#nav-list a {
+  text-align: center;
+  margin-top: 10px;
+  font-family: 'arial', sans-serif;
+  font-size: 1.25em;
+  color: #33C4FF;
+
+}
+
+.navbar-brand h1{
+	font-family: 'arial', sans-serif;
+	color: #33C4FF;
+	font-size: 1.5em;
+	margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+h2{
+  font-size: 2em;
+  font-family: 'arial', sans-serif;
+}
+
+button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+#main-content{
+  background-color: #33C4FF;
+  padding-bottom: 30px
+}
+
+@media (max-width: 767px){
+
+  #main-content{
+  width: 80%;
+}
